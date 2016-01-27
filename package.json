@@ -1,0 +1,19 @@
+{
+  "name": "js-doc-md-example",
+  "version": "1.0.0",
+  "description": "An example project using grunt plugins to convert js-doc to markdown",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "grunt",
+    "jsdoc"
+  ],
+  "author": "feroz.panwaskar",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-jsdoc-to-markdown": "^1.2.0"
+  }
+}

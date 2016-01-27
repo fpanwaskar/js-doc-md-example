@@ -1,0 +1,8 @@
+{{#globals}}
+	{{>header}}{{>body}}
+{{/globals}}
+
+{{#functions}}{{#if customTags}}{{#each customTags}}{{#if (equal tag "channel") ~}}
+###{{../../id}}
+{{> body ../..}}
+{{/if}}{{/each}}{{/if}}{{/functions}}
